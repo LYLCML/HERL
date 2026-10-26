@@ -1,0 +1,13 @@
+{
+    "inherit" : "./configs/basic.json",
+    "backbone" : "wideresnet40-4",
+
+     "ldda_model" : {
+        "model" : "herl",
+        "en_latent" : 64,
+        "en_H_W": 8,
+        "eraly_stop_acc": 0.9,
+        "projection_dim" : -1,
+        "rc_act" : false
+    }
+}

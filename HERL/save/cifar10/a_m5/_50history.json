@@ -1,0 +1,50 @@
+[
+    {
+        "epoch": 0,
+        "loss": {
+            "Loss": 2.82551,
+            "Lossp": 12544.35489,
+            "TrainAcc": 0.3507,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01013,
+            "BatchTime": 0.1478
+        },
+        "close acc": 0.2855,
+        "fused_score_auroc": 0.55715,
+        "zscore_ener_auroc": 0.48885,
+        "zscore_reer_auroc": 0.53179,
+        "score_test_ener_auroc": 0.44489,
+        "score_test_reer_auroc": 0.55551,
+        "open_detection": {
+            "auroc": 0.55715,
+            "auprIN": 0.63913,
+            "auprOUT": 0.4559,
+            "accuracy": 0.6052,
+            "f1": 0.74283,
+            "recall": 0.95033,
+            "precision": 0.60971,
+            "fpr@tpr95": 0.9125,
+            "bestdetacc": 0.54421
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.28317,
+            "accuracy": 0.2049,
+            "macro_f1": 0.16829,
+            "oscr": 0.20351,
+            "weighted_f1": 0.16297,
+            "macro_recall": 0.25521,
+            "weighted_recall": 0.2049,
+            "macro_precision": 0.24191,
+            "weighted_precision": 0.33112,
+            "classwise_auc": {
+                "class0": 0.52962,
+                "class1": 0.61834,
+                "class2": 0.56546,
+                "class3": 0.54499,
+                "class4": 0.54743,
+                "class5": 0.4016,
+                "mean": 0.55638
+            }
+        }
+    }
+]

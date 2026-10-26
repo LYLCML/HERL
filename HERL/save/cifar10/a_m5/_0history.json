@@ -1,0 +1,3020 @@
+[
+    {
+        "epoch": 0,
+        "loss": {
+            "Loss": 1.57118,
+            "Lossp": 0.0,
+            "TrainAcc": 0.35247,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01048,
+            "BatchTime": 0.08379
+        },
+        "close acc": 0.26483,
+        "fused_score_auroc": 0.58697,
+        "zscore_ener_auroc": 0.58606,
+        "zscore_reer_auroc": 0.49249,
+        "score_test_ener_auroc": 0.56261,
+        "score_test_reer_auroc": 0.48131,
+        "open_detection": {
+            "auroc": 0.58697,
+            "auprIN": 0.66311,
+            "auprOUT": 0.4571,
+            "accuracy": 0.5962,
+            "f1": 0.7384,
+            "recall": 0.94983,
+            "precision": 0.60396,
+            "fpr@tpr95": 0.93425,
+            "bestdetacc": 0.58167
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.26417,
+            "accuracy": 0.1848,
+            "macro_f1": 0.14862,
+            "oscr": 0.20616,
+            "weighted_f1": 0.1386,
+            "macro_recall": 0.23582,
+            "weighted_recall": 0.1848,
+            "macro_precision": 0.2854,
+            "weighted_precision": 0.33943,
+            "classwise_auc": {
+                "class0": 0.45018,
+                "class1": 0.60038,
+                "class2": 0.23333,
+                "class3": 0.5852,
+                "class4": 0.44018,
+                "class5": 0.54157,
+                "mean": 0.57716
+            }
+        }
+    },
+    {
+        "epoch": 1,
+        "loss": {
+            "Loss": 1.4104695614348066,
+            "Lossp": 0.0,
+            "TrainAcc": 0.42706666666666665,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010434211568629488,
+            "BatchTime": 0.07974564065324499
+        }
+    },
+    {
+        "epoch": 2,
+        "loss": {
+            "Loss": 1.3190372441677336,
+            "Lossp": 0.0,
+            "TrainAcc": 0.4699,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010464044327431537,
+            "BatchTime": 0.07782812321439703
+        }
+    },
+    {
+        "epoch": 3,
+        "loss": {
+            "Loss": 1.2061389542640524,
+            "Lossp": 0.0,
+            "TrainAcc": 0.5345333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010125417912260015,
+            "BatchTime": 0.07824016429008322
+        }
+    },
+    {
+        "epoch": 4,
+        "loss": {
+            "Loss": 1.102537505423769,
+            "Lossp": 0.0,
+            "TrainAcc": 0.5816666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010239108065341382,
+            "BatchTime": 0.07826655063223331
+        }
+    },
+    {
+        "epoch": 5,
+        "loss": {
+            "Loss": 1.0145275430476413,
+            "Lossp": 0.0,
+            "TrainAcc": 0.6194666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010243730342134516,
+            "BatchTime": 0.07838666692693183
+        }
+    },
+    {
+        "epoch": 6,
+        "loss": {
+            "Loss": 0.9468673340817715,
+            "Lossp": 0.0,
+            "TrainAcc": 0.6505333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01013865978159803,
+            "BatchTime": 0.07787683771011678
+        }
+    },
+    {
+        "epoch": 7,
+        "loss": {
+            "Loss": 0.8912999708601769,
+            "Lossp": 0.0,
+            "TrainAcc": 0.673,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010271029776715217,
+            "BatchTime": 0.07810701309366429
+        }
+    },
+    {
+        "epoch": 8,
+        "loss": {
+            "Loss": 0.8319912461524314,
+            "Lossp": 0.0,
+            "TrainAcc": 0.6988333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010140057827563996,
+            "BatchTime": 0.0780026598179594
+        }
+    },
+    {
+        "epoch": 9,
+        "loss": {
+            "Loss": 0.8071442449346502,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7074333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010094255082150724,
+            "BatchTime": 0.07816012869489954
+        }
+    },
+    {
+        "epoch": 10,
+        "loss": {
+            "Loss": 0.76967,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7233,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01026,
+            "BatchTime": 0.07812
+        },
+        "close acc": 0.24467,
+        "fused_score_auroc": 0.45009,
+        "zscore_ener_auroc": 0.41893,
+        "zscore_reer_auroc": 0.45009,
+        "score_test_ener_auroc": 0.41943,
+        "score_test_reer_auroc": 0.43289,
+        "open_detection": {
+            "auroc": 0.45009,
+            "auprIN": 0.5855,
+            "auprOUT": 0.35466,
+            "accuracy": 0.5785,
+            "f1": 0.73014,
+            "recall": 0.95033,
+            "precision": 0.59279,
+            "fpr@tpr95": 0.97925,
+            "bestdetacc": 0.50708
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.24367,
+            "accuracy": 0.1545,
+            "macro_f1": 0.0868,
+            "oscr": 0.14457,
+            "weighted_f1": 0.07213,
+            "macro_recall": 0.21182,
+            "weighted_recall": 0.1545,
+            "macro_precision": 0.23597,
+            "weighted_precision": 0.23036,
+            "classwise_auc": {
+                "class0": 0.5,
+                "class1": 0.5,
+                "class2": 0.4124,
+                "class3": 0.56498,
+                "class4": 0.50112,
+                "class5": 0.5,
+                "mean": 0.44186
+            }
+        }
+    },
+    {
+        "epoch": 11,
+        "loss": {
+            "Loss": 0.7426238371970806,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7324333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010127959352858523,
+            "BatchTime": 0.07858185362308584
+        }
+    },
+    {
+        "epoch": 12,
+        "loss": {
+            "Loss": 0.7261161258880128,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7412666666666666,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010095276731125851,
+            "BatchTime": 0.07795336500127265
+        }
+    },
+    {
+        "epoch": 13,
+        "loss": {
+            "Loss": 0.7041162412217323,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7510333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010041281517515791,
+            "BatchTime": 0.07807723816404952
+        }
+    },
+    {
+        "epoch": 14,
+        "loss": {
+            "Loss": 0.6829960476844869,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7570333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01020996925678659,
+            "BatchTime": 0.07818349777384007
+        }
+    },
+    {
+        "epoch": 15,
+        "loss": {
+            "Loss": 0.6743460423134743,
+            "Lossp": 0.0,
+            "TrainAcc": 0.761,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01019259716602082,
+            "BatchTime": 0.07856930874763651
+        }
+    },
+    {
+        "epoch": 16,
+        "loss": {
+            "Loss": 0.6564799270731337,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7697666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010077718978232526,
+            "BatchTime": 0.07838699665475399
+        }
+    },
+    {
+        "epoch": 17,
+        "loss": {
+            "Loss": 0.6448862679461216,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7739333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010252945473853577,
+            "BatchTime": 0.07857299358286757
+        }
+    },
+    {
+        "epoch": 18,
+        "loss": {
+            "Loss": 0.6341383202278867,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7794333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010130273534896527,
+            "BatchTime": 0.07816061060479347
+        }
+    },
+    {
+        "epoch": 19,
+        "loss": {
+            "Loss": 0.6236144932026558,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7843333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010117670830259932,
+            "BatchTime": 0.07821912258229358
+        }
+    },
+    {
+        "epoch": 20,
+        "loss": {
+            "Loss": 0.61301,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7869,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01019,
+            "BatchTime": 0.07799
+        },
+        "close acc": 0.22783,
+        "fused_score_auroc": 0.42879,
+        "zscore_ener_auroc": 0.42879,
+        "zscore_reer_auroc": 0.41266,
+        "score_test_ener_auroc": 0.43123,
+        "score_test_reer_auroc": 0.41123,
+        "open_detection": {
+            "auroc": 0.42879,
+            "auprIN": 0.54893,
+            "auprOUT": 0.34645,
+            "accuracy": 0.5779,
+            "f1": 0.72975,
+            "recall": 0.94983,
+            "precision": 0.59247,
+            "fpr@tpr95": 0.98,
+            "bestdetacc": 0.50013
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.2225,
+            "accuracy": 0.1415,
+            "macro_f1": 0.08047,
+            "oscr": 0.13153,
+            "weighted_f1": 0.06728,
+            "macro_recall": 0.19357,
+            "weighted_recall": 0.1415,
+            "macro_precision": 0.07958,
+            "weighted_precision": 0.11853,
+            "classwise_auc": {
+                "class0": 0.5,
+                "class1": 0.5,
+                "class2": 0.42,
+                "class3": 0.46657,
+                "class4": 0.5,
+                "class5": 0.5,
+                "mean": 0.43168
+            }
+        }
+    },
+    {
+        "epoch": 21,
+        "loss": {
+            "Loss": 0.6096061222096707,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7888333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010123613032888858,
+            "BatchTime": 0.07856176660415974
+        }
+    },
+    {
+        "epoch": 22,
+        "loss": {
+            "Loss": 0.601740049681765,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7919333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010237372175176092,
+            "BatchTime": 0.07836169993623775
+        }
+    },
+    {
+        "epoch": 23,
+        "loss": {
+            "Loss": 0.5911336936849229,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7962333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010062726000522045,
+            "BatchTime": 0.07833966194315159
+        }
+    },
+    {
+        "epoch": 24,
+        "loss": {
+            "Loss": 0.5906686416331758,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7945333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010092363966272232,
+            "BatchTime": 0.07825765406831782
+        }
+    },
+    {
+        "epoch": 25,
+        "loss": {
+            "Loss": 0.581339211793656,
+            "Lossp": 0.0,
+            "TrainAcc": 0.7995,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010179439504095849,
+            "BatchTime": 0.07794823443635981
+        }
+    },
+    {
+        "epoch": 26,
+        "loss": {
+            "Loss": 0.5738214409097712,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8042666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010402070715072308,
+            "BatchTime": 0.07853389496498919
+        }
+    },
+    {
+        "epoch": 27,
+        "loss": {
+            "Loss": 0.5666536376831379,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8062333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010163018044005049,
+            "BatchTime": 0.07835612804331678
+        }
+    },
+    {
+        "epoch": 28,
+        "loss": {
+            "Loss": 0.5667922818914373,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8069333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010054378306612056,
+            "BatchTime": 0.07802287669892007
+        }
+    },
+    {
+        "epoch": 29,
+        "loss": {
+            "Loss": 0.5619206037927181,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8062,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010043396848313351,
+            "BatchTime": 0.07826287289883228
+        }
+    },
+    {
+        "epoch": 30,
+        "loss": {
+            "Loss": 0.55715,
+            "Lossp": 0.0,
+            "TrainAcc": 0.81107,
+            "Learn Rate": 0.4,
+            "DataTime": 0.00998,
+            "BatchTime": 0.07815
+        },
+        "close acc": 0.20333,
+        "fused_score_auroc": 0.45593,
+        "zscore_ener_auroc": 0.41651,
+        "zscore_reer_auroc": 0.45593,
+        "score_test_ener_auroc": 0.42929,
+        "score_test_reer_auroc": 0.45669,
+        "open_detection": {
+            "auroc": 0.45593,
+            "auprIN": 0.56532,
+            "auprOUT": 0.36808,
+            "accuracy": 0.5828,
+            "f1": 0.73208,
+            "recall": 0.95,
+            "precision": 0.59549,
+            "fpr@tpr95": 0.968,
+            "bestdetacc": 0.50004
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.201,
+            "accuracy": 0.1334,
+            "macro_f1": 0.06797,
+            "oscr": 0.13441,
+            "weighted_f1": 0.06492,
+            "macro_recall": 0.17686,
+            "weighted_recall": 0.1334,
+            "macro_precision": 0.18594,
+            "weighted_precision": 0.21967,
+            "classwise_auc": {
+                "class0": 0.7931,
+                "class1": 0.5,
+                "class2": 0.43642,
+                "class3": 0.45785,
+                "class4": 0.5,
+                "class5": 0.5,
+                "mean": 0.45422
+            }
+        }
+    },
+    {
+        "epoch": 31,
+        "loss": {
+            "Loss": 0.5553539938115059,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8106,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010040552058118456,
+            "BatchTime": 0.07853251112268327
+        }
+    },
+    {
+        "epoch": 32,
+        "loss": {
+            "Loss": 0.5437966487509139,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8135,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010059356689453125,
+            "BatchTime": 0.07810172730303826
+        }
+    },
+    {
+        "epoch": 33,
+        "loss": {
+            "Loss": 0.5387806161921075,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8161333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010125613719859022,
+            "BatchTime": 0.07806284681279609
+        }
+    },
+    {
+        "epoch": 34,
+        "loss": {
+            "Loss": 0.5440998802793787,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8139,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01016806440150484,
+            "BatchTime": 0.07798177536497725
+        }
+    },
+    {
+        "epoch": 35,
+        "loss": {
+            "Loss": 0.5380782318876145,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8200666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010118759439346639,
+            "BatchTime": 0.0780765137773879
+        }
+    },
+    {
+        "epoch": 36,
+        "loss": {
+            "Loss": 0.5369041537984889,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8167666666666666,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010077424759560444,
+            "BatchTime": 0.07834544486187874
+        }
+    },
+    {
+        "epoch": 37,
+        "loss": {
+            "Loss": 0.5356376108971048,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8178666666666666,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010146086266700258,
+            "BatchTime": 0.0784168689808947
+        }
+    },
+    {
+        "epoch": 38,
+        "loss": {
+            "Loss": 0.5343537122645277,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8182333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010219877324205763,
+            "BatchTime": 0.07835265626298621
+        }
+    },
+    {
+        "epoch": 39,
+        "loss": {
+            "Loss": 0.5330092772524407,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8201666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010184212948413606,
+            "BatchTime": 0.07809257710233648
+        }
+    },
+    {
+        "epoch": 40,
+        "loss": {
+            "Loss": 0.5284,
+            "Lossp": 0.0,
+            "TrainAcc": 0.82003,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01018,
+            "BatchTime": 0.07815
+        },
+        "close acc": 0.4985,
+        "fused_score_auroc": 0.61283,
+        "zscore_ener_auroc": 0.61283,
+        "zscore_reer_auroc": 0.49633,
+        "score_test_ener_auroc": 0.61437,
+        "score_test_reer_auroc": 0.43219,
+        "open_detection": {
+            "auroc": 0.61283,
+            "auprIN": 0.72515,
+            "auprOUT": 0.46623,
+            "accuracy": 0.594,
+            "f1": 0.73739,
+            "recall": 0.95,
+            "precision": 0.60254,
+            "fpr@tpr95": 0.94,
+            "bestdetacc": 0.59688
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.49533,
+            "accuracy": 0.3212,
+            "macro_f1": 0.31774,
+            "oscr": 0.38079,
+            "weighted_f1": 0.25413,
+            "macro_recall": 0.43314,
+            "weighted_recall": 0.3212,
+            "macro_precision": 0.6047,
+            "weighted_precision": 0.55638,
+            "classwise_auc": {
+                "class0": 0.57448,
+                "class1": 0.88732,
+                "class2": 0.59847,
+                "class3": 0.62571,
+                "class4": 0.5,
+                "class5": 0.73211,
+                "mean": 0.607
+            }
+        }
+    },
+    {
+        "epoch": 41,
+        "loss": {
+            "Loss": 0.5281145259420923,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8206666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010133626613211124,
+            "BatchTime": 0.07822423387081065
+        }
+    },
+    {
+        "epoch": 42,
+        "loss": {
+            "Loss": 0.5157933666350993,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8251666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010056814234307472,
+            "BatchTime": 0.07825440853200061
+        }
+    },
+    {
+        "epoch": 43,
+        "loss": {
+            "Loss": 0.517639714352628,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8246666666666667,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010174088782452522,
+            "BatchTime": 0.07872693792302558
+        }
+    },
+    {
+        "epoch": 44,
+        "loss": {
+            "Loss": 0.5215918781909537,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8231333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010232555105331097,
+            "BatchTime": 0.07798859413633956
+        }
+    },
+    {
+        "epoch": 45,
+        "loss": {
+            "Loss": 0.5116547701206613,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8258,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010044890261710957,
+            "BatchTime": 0.07797657175266996
+        }
+    },
+    {
+        "epoch": 46,
+        "loss": {
+            "Loss": 0.5139654302850682,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8260333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01010481448883706,
+            "BatchTime": 0.07802194940282943
+        }
+    },
+    {
+        "epoch": 47,
+        "loss": {
+            "Loss": 0.5178986909541677,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8262333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010080252302453872,
+            "BatchTime": 0.0781922512866081
+        }
+    },
+    {
+        "epoch": 48,
+        "loss": {
+            "Loss": 0.5082238702063865,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8288666666666666,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010134590432998981,
+            "BatchTime": 0.07796449965619026
+        }
+    },
+    {
+        "epoch": 49,
+        "loss": {
+            "Loss": 0.5068867254764475,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8295,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01009652259502005,
+            "BatchTime": 0.07817418524559508
+        }
+    },
+    {
+        "epoch": 50,
+        "loss": {
+            "Loss": 0.4958,
+            "Lossp": 0.0,
+            "TrainAcc": 0.835,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01015,
+            "BatchTime": 0.07797
+        },
+        "close acc": 0.71283,
+        "fused_score_auroc": 0.64554,
+        "zscore_ener_auroc": 0.64554,
+        "zscore_reer_auroc": 0.59689,
+        "score_test_ener_auroc": 0.64906,
+        "score_test_reer_auroc": 0.50863,
+        "open_detection": {
+            "auroc": 0.64554,
+            "auprIN": 0.7326,
+            "auprOUT": 0.51626,
+            "accuracy": 0.6078,
+            "f1": 0.74396,
+            "recall": 0.94967,
+            "precision": 0.6115,
+            "fpr@tpr95": 0.905,
+            "bestdetacc": 0.61233
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.7,
+            "accuracy": 0.458,
+            "macro_f1": 0.53155,
+            "oscr": 0.51706,
+            "weighted_f1": 0.42077,
+            "macro_recall": 0.61357,
+            "weighted_recall": 0.458,
+            "macro_precision": 0.59577,
+            "weighted_precision": 0.58395,
+            "classwise_auc": {
+                "class0": 0.66847,
+                "class1": 0.89449,
+                "class2": 0.57938,
+                "class3": 0.66893,
+                "class4": 0.71436,
+                "class5": 0.91922,
+                "mean": 0.67197
+            }
+        }
+    },
+    {
+        "epoch": 51,
+        "loss": {
+            "Loss": 0.5157960163786056,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8257333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010024222921817861,
+            "BatchTime": 0.07785479971703063
+        }
+    },
+    {
+        "epoch": 52,
+        "loss": {
+            "Loss": 0.507196817499526,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8291,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010055254875345433,
+            "BatchTime": 0.07821856356681661
+        }
+    },
+    {
+        "epoch": 53,
+        "loss": {
+            "Loss": 0.5013407519523133,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8323,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010240831780940929,
+            "BatchTime": 0.07824247948666836
+        }
+    },
+    {
+        "epoch": 54,
+        "loss": {
+            "Loss": 0.5002852693517157,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8313,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010031634188712911,
+            "BatchTime": 0.0780710869647087
+        }
+    },
+    {
+        "epoch": 55,
+        "loss": {
+            "Loss": 0.4998075207497211,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8316333333333333,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010055693159712121,
+            "BatchTime": 0.07787383363602009
+        }
+    },
+    {
+        "epoch": 56,
+        "loss": {
+            "Loss": 0.4966411424444077,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8332333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010114458773998504,
+            "BatchTime": 0.07802358992556307
+        }
+    },
+    {
+        "epoch": 57,
+        "loss": {
+            "Loss": 0.4937665367380102,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8324,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010137487979645424,
+            "BatchTime": 0.07814384216957904
+        }
+    },
+    {
+        "epoch": 58,
+        "loss": {
+            "Loss": 0.49229192302582114,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8332,
+            "Learn Rate": 0.4,
+            "DataTime": 0.010364057662639212,
+            "BatchTime": 0.07831214742457614
+        }
+    },
+    {
+        "epoch": 59,
+        "loss": {
+            "Loss": 0.4866511866133264,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8393333333333334,
+            "Learn Rate": 0.4,
+            "DataTime": 0.01000779131625561,
+            "BatchTime": 0.07786387078305508
+        }
+    },
+    {
+        "epoch": 60,
+        "loss": {
+            "Loss": 0.38948,
+            "Lossp": 0.0,
+            "TrainAcc": 0.87323,
+            "Learn Rate": 0.04,
+            "DataTime": 0.01013,
+            "BatchTime": 0.07807
+        },
+        "close acc": 0.936,
+        "fused_score_auroc": 0.84686,
+        "zscore_ener_auroc": 0.84339,
+        "zscore_reer_auroc": 0.81445,
+        "score_test_ener_auroc": 0.84115,
+        "score_test_reer_auroc": 0.81498,
+        "open_detection": {
+            "auroc": 0.84686,
+            "auprIN": 0.89772,
+            "auprOUT": 0.7384,
+            "accuracy": 0.697,
+            "f1": 0.78999,
+            "recall": 0.94983,
+            "precision": 0.6762,
+            "fpr@tpr95": 0.68225,
+            "bestdetacc": 0.77975
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.90483,
+            "accuracy": 0.67,
+            "macro_f1": 0.72303,
+            "oscr": 0.81393,
+            "weighted_f1": 0.64296,
+            "macro_recall": 0.82096,
+            "weighted_recall": 0.67,
+            "macro_precision": 0.70074,
+            "weighted_precision": 0.73292,
+            "classwise_auc": {
+                "class0": 0.82781,
+                "class1": 0.95185,
+                "class2": 0.85736,
+                "class3": 0.8027,
+                "class4": 0.81674,
+                "class5": 0.94505,
+                "mean": 0.85161
+            }
+        }
+    },
+    {
+        "epoch": 61,
+        "loss": {
+            "Loss": 0.34686708044498527,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8920666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010260219776884039,
+            "BatchTime": 0.0786196028932612
+        }
+    },
+    {
+        "epoch": 62,
+        "loss": {
+            "Loss": 0.32862862069556054,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8995333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.00999648723196476,
+            "BatchTime": 0.07808761698134402
+        }
+    },
+    {
+        "epoch": 63,
+        "loss": {
+            "Loss": 0.32798486237830304,
+            "Lossp": 0.0,
+            "TrainAcc": 0.8976,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010132880921059467,
+            "BatchTime": 0.07826555434693681
+        }
+    },
+    {
+        "epoch": 64,
+        "loss": {
+            "Loss": 0.3147525061952307,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9025333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010175648141414561,
+            "BatchTime": 0.0782582293165491
+        }
+    },
+    {
+        "epoch": 65,
+        "loss": {
+            "Loss": 0.3153767788663824,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9023666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.009958460990418779,
+            "BatchTime": 0.07825970040990951
+        }
+    },
+    {
+        "epoch": 66,
+        "loss": {
+            "Loss": 0.3102090586373146,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9035,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010181208874316925,
+            "BatchTime": 0.0782977560733227
+        }
+    },
+    {
+        "epoch": 67,
+        "loss": {
+            "Loss": 0.3044476173659588,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9063666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010195328326935463,
+            "BatchTime": 0.07812540683340519
+        }
+    },
+    {
+        "epoch": 68,
+        "loss": {
+            "Loss": 0.3061231330354163,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9070333333333334,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010056332324413542,
+            "BatchTime": 0.0780628356527775
+        }
+    },
+    {
+        "epoch": 69,
+        "loss": {
+            "Loss": 0.29666590500385204,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9096,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010057541664610517,
+            "BatchTime": 0.07792409633068328
+        }
+    },
+    {
+        "epoch": 70,
+        "loss": {
+            "Loss": 0.29934,
+            "Lossp": 0.0,
+            "TrainAcc": 0.90883,
+            "Learn Rate": 0.04,
+            "DataTime": 0.01006,
+            "BatchTime": 0.07813
+        },
+        "close acc": 0.94567,
+        "fused_score_auroc": 0.8687,
+        "zscore_ener_auroc": 0.86574,
+        "zscore_reer_auroc": 0.82817,
+        "score_test_ener_auroc": 0.86087,
+        "score_test_reer_auroc": 0.8373,
+        "open_detection": {
+            "auroc": 0.8687,
+            "auprIN": 0.91252,
+            "auprOUT": 0.78629,
+            "accuracy": 0.7238,
+            "f1": 0.80497,
+            "recall": 0.95,
+            "precision": 0.69836,
+            "fpr@tpr95": 0.6155,
+            "bestdetacc": 0.79521
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.916,
+            "accuracy": 0.7034,
+            "macro_f1": 0.75081,
+            "oscr": 0.84038,
+            "weighted_f1": 0.68361,
+            "macro_recall": 0.84007,
+            "weighted_recall": 0.7034,
+            "macro_precision": 0.72407,
+            "weighted_precision": 0.75775,
+            "classwise_auc": {
+                "class0": 0.83074,
+                "class1": 0.95784,
+                "class2": 0.89817,
+                "class3": 0.83531,
+                "class4": 0.81908,
+                "class5": 0.9598,
+                "mean": 0.86967
+            }
+        }
+    },
+    {
+        "epoch": 71,
+        "loss": {
+            "Loss": 0.29937925979178004,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9076333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01007587250242842,
+            "BatchTime": 0.0778242273533598
+        }
+    },
+    {
+        "epoch": 72,
+        "loss": {
+            "Loss": 0.29610861210112877,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9084666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010220081248181932,
+            "BatchTime": 0.07795469913076847
+        }
+    },
+    {
+        "epoch": 73,
+        "loss": {
+            "Loss": 0.2985444150072463,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9099666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010073722677027925,
+            "BatchTime": 0.07809987778359272
+        }
+    },
+    {
+        "epoch": 74,
+        "loss": {
+            "Loss": 0.29302091141964526,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9117,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010160096148227124,
+            "BatchTime": 0.07829690182462652
+        }
+    },
+    {
+        "epoch": 75,
+        "loss": {
+            "Loss": 0.2911973054104663,
+            "Lossp": 0.0,
+            "TrainAcc": 0.911,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01027494288505392,
+            "BatchTime": 0.07820843229902552
+        }
+    },
+    {
+        "epoch": 76,
+        "loss": {
+            "Loss": 0.285568346495324,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9142333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010611523973180893,
+            "BatchTime": 0.07872104137501817
+        }
+    },
+    {
+        "epoch": 77,
+        "loss": {
+            "Loss": 0.2850931802328597,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9138,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010388301281218834,
+            "BatchTime": 0.07862684473078302
+        }
+    },
+    {
+        "epoch": 78,
+        "loss": {
+            "Loss": 0.2812097433399647,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9149333333333334,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01018842433361297,
+            "BatchTime": 0.07819138892153477
+        }
+    },
+    {
+        "epoch": 79,
+        "loss": {
+            "Loss": 0.27594769305371225,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9172666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01050769217470859,
+            "BatchTime": 0.07868150954550886
+        }
+    },
+    {
+        "epoch": 80,
+        "loss": {
+            "Loss": 0.27549,
+            "Lossp": 0.0,
+            "TrainAcc": 0.91773,
+            "Learn Rate": 0.04,
+            "DataTime": 0.01057,
+            "BatchTime": 0.07823
+        },
+        "close acc": 0.94917,
+        "fused_score_auroc": 0.86503,
+        "zscore_ener_auroc": 0.85879,
+        "zscore_reer_auroc": 0.82298,
+        "score_test_ener_auroc": 0.84149,
+        "score_test_reer_auroc": 0.82051,
+        "open_detection": {
+            "auroc": 0.86503,
+            "auprIN": 0.90964,
+            "auprOUT": 0.77652,
+            "accuracy": 0.7209,
+            "f1": 0.8033,
+            "recall": 0.94983,
+            "precision": 0.69593,
+            "fpr@tpr95": 0.6225,
+            "bestdetacc": 0.79496
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.921,
+            "accuracy": 0.7036,
+            "macro_f1": 0.75332,
+            "oscr": 0.84106,
+            "weighted_f1": 0.68321,
+            "macro_recall": 0.84336,
+            "weighted_recall": 0.7036,
+            "macro_precision": 0.72885,
+            "weighted_precision": 0.7602,
+            "classwise_auc": {
+                "class0": 0.84119,
+                "class1": 0.96482,
+                "class2": 0.88378,
+                "class3": 0.83504,
+                "class4": 0.83536,
+                "class5": 0.96195,
+                "mean": 0.87178
+            }
+        }
+    },
+    {
+        "epoch": 81,
+        "loss": {
+            "Loss": 0.2790633479965494,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9147666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.009944332406875934,
+            "BatchTime": 0.07806203010234426
+        }
+    },
+    {
+        "epoch": 82,
+        "loss": {
+            "Loss": 0.2709995520241717,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9191,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01006994957619525,
+            "BatchTime": 0.07805275714143793
+        }
+    },
+    {
+        "epoch": 83,
+        "loss": {
+            "Loss": 0.280424930884483,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9145666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010046623108234811,
+            "BatchTime": 0.07795369168545338
+        }
+    },
+    {
+        "epoch": 84,
+        "loss": {
+            "Loss": 0.27493357956409453,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9169333333333334,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010205966868299119,
+            "BatchTime": 0.07806440515721098
+        }
+    },
+    {
+        "epoch": 85,
+        "loss": {
+            "Loss": 0.27410409475894687,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9182333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.009940046959734978,
+            "BatchTime": 0.07830759210789458
+        }
+    },
+    {
+        "epoch": 86,
+        "loss": {
+            "Loss": 0.2702064102000378,
+            "Lossp": 0.0,
+            "TrainAcc": 0.919,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010190859246761242,
+            "BatchTime": 0.07808808773121935
+        }
+    },
+    {
+        "epoch": 87,
+        "loss": {
+            "Loss": 0.26874384024041764,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9205,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010217397770983107,
+            "BatchTime": 0.07795086617165424
+        }
+    },
+    {
+        "epoch": 88,
+        "loss": {
+            "Loss": 0.2671378729191232,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9203333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010139642877781645,
+            "BatchTime": 0.07808101227942933
+        }
+    },
+    {
+        "epoch": 89,
+        "loss": {
+            "Loss": 0.26679374017614,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9217,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010405894543262238,
+            "BatchTime": 0.0786296215463192
+        }
+    },
+    {
+        "epoch": 90,
+        "loss": {
+            "Loss": 0.26896,
+            "Lossp": 0.0,
+            "TrainAcc": 0.92053,
+            "Learn Rate": 0.04,
+            "DataTime": 0.01005,
+            "BatchTime": 0.07825
+        },
+        "close acc": 0.95617,
+        "fused_score_auroc": 0.88658,
+        "zscore_ener_auroc": 0.88488,
+        "zscore_reer_auroc": 0.83045,
+        "score_test_ener_auroc": 0.88766,
+        "score_test_reer_auroc": 0.83772,
+        "open_detection": {
+            "auroc": 0.88658,
+            "auprIN": 0.92463,
+            "auprOUT": 0.80993,
+            "accuracy": 0.7455,
+            "f1": 0.8175,
+            "recall": 0.95,
+            "precision": 0.71743,
+            "fpr@tpr95": 0.56125,
+            "bestdetacc": 0.81533
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.92183,
+            "accuracy": 0.7286,
+            "macro_f1": 0.77193,
+            "oscr": 0.86248,
+            "weighted_f1": 0.71423,
+            "macro_recall": 0.85282,
+            "weighted_recall": 0.7286,
+            "macro_precision": 0.74324,
+            "weighted_precision": 0.77635,
+            "classwise_auc": {
+                "class0": 0.87317,
+                "class1": 0.96956,
+                "class2": 0.91151,
+                "class3": 0.8874,
+                "class4": 0.81555,
+                "class5": 0.96509,
+                "mean": 0.89296
+            }
+        }
+    },
+    {
+        "epoch": 91,
+        "loss": {
+            "Loss": 0.2624321536814913,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9238333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01029375969095433,
+            "BatchTime": 0.07845004873072847
+        }
+    },
+    {
+        "epoch": 92,
+        "loss": {
+            "Loss": 0.2641267195026925,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9212,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010319534261175926,
+            "BatchTime": 0.07848224436983149
+        }
+    },
+    {
+        "epoch": 93,
+        "loss": {
+            "Loss": 0.2641287626104152,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9224666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010166614613634474,
+            "BatchTime": 0.07819750866991408
+        }
+    },
+    {
+        "epoch": 94,
+        "loss": {
+            "Loss": 0.2595361682962864,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9226,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010141615157431744,
+            "BatchTime": 0.07827747629043903
+        }
+    },
+    {
+        "epoch": 95,
+        "loss": {
+            "Loss": 0.2563727934309777,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9268666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010136431836067362,
+            "BatchTime": 0.07842301815114122
+        }
+    },
+    {
+        "epoch": 96,
+        "loss": {
+            "Loss": 0.2566328332779255,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9236666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010248680317655523,
+            "BatchTime": 0.07842064411082167
+        }
+    },
+    {
+        "epoch": 97,
+        "loss": {
+            "Loss": 0.2588595836720568,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9221333333333334,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010036530393235227,
+            "BatchTime": 0.07823474660832831
+        }
+    },
+    {
+        "epoch": 98,
+        "loss": {
+            "Loss": 0.25689075202383893,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9246,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010164853359790558,
+            "BatchTime": 0.0784554735143134
+        }
+    },
+    {
+        "epoch": 99,
+        "loss": {
+            "Loss": 0.25671448713921485,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9238,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010130218749350689,
+            "BatchTime": 0.07746089164246904
+        }
+    },
+    {
+        "epoch": 100,
+        "loss": {
+            "Loss": 0.25638,
+            "Lossp": 0.0,
+            "TrainAcc": 0.92493,
+            "Learn Rate": 0.04,
+            "DataTime": 0.00989,
+            "BatchTime": 0.07784
+        },
+        "close acc": 0.95833,
+        "fused_score_auroc": 0.86387,
+        "zscore_ener_auroc": 0.85283,
+        "zscore_reer_auroc": 0.80444,
+        "score_test_ener_auroc": 0.83297,
+        "score_test_reer_auroc": 0.79696,
+        "open_detection": {
+            "auroc": 0.86387,
+            "auprIN": 0.90766,
+            "auprOUT": 0.7724,
+            "accuracy": 0.7158,
+            "f1": 0.80045,
+            "recall": 0.95,
+            "precision": 0.69158,
+            "fpr@tpr95": 0.6355,
+            "bestdetacc": 0.795
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.92567,
+            "accuracy": 0.7012,
+            "macro_f1": 0.75579,
+            "oscr": 0.84481,
+            "weighted_f1": 0.68095,
+            "macro_recall": 0.8455,
+            "weighted_recall": 0.7012,
+            "macro_precision": 0.73436,
+            "weighted_precision": 0.76271,
+            "classwise_auc": {
+                "class0": 0.85161,
+                "class1": 0.96899,
+                "class2": 0.88611,
+                "class3": 0.88705,
+                "class4": 0.80623,
+                "class5": 0.95916,
+                "mean": 0.87654
+            }
+        }
+    },
+    {
+        "epoch": 101,
+        "loss": {
+            "Loss": 0.2542185110614655,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9248333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.009853093167568775,
+            "BatchTime": 0.07760634523756961
+        }
+    },
+    {
+        "epoch": 102,
+        "loss": {
+            "Loss": 0.2539779165957836,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9239,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01015486514314692,
+            "BatchTime": 0.07808040152204798
+        }
+    },
+    {
+        "epoch": 103,
+        "loss": {
+            "Loss": 0.2588887837338955,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9225333333333333,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010131578242525141,
+            "BatchTime": 0.07798567224056163
+        }
+    },
+    {
+        "epoch": 104,
+        "loss": {
+            "Loss": 0.2578966760254921,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9238666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01019438479809051,
+            "BatchTime": 0.07813918539818297
+        }
+    },
+    {
+        "epoch": 105,
+        "loss": {
+            "Loss": 0.257508503883443,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9241333333333334,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01028414381311295,
+            "BatchTime": 0.0781528797555477
+        }
+    },
+    {
+        "epoch": 106,
+        "loss": {
+            "Loss": 0.2531948282997659,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9253,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010223861450844623,
+            "BatchTime": 0.07809237114926602
+        }
+    },
+    {
+        "epoch": 107,
+        "loss": {
+            "Loss": 0.2534184070343667,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9257666666666666,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.01021967441477674,
+            "BatchTime": 0.07805518393820905
+        }
+    },
+    {
+        "epoch": 108,
+        "loss": {
+            "Loss": 0.2573326821656937,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9232666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010127471355681724,
+            "BatchTime": 0.07798889241320021
+        }
+    },
+    {
+        "epoch": 109,
+        "loss": {
+            "Loss": 0.25227275490760803,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9271666666666667,
+            "Learn Rate": 0.04000000000000001,
+            "DataTime": 0.010107711020936357,
+            "BatchTime": 0.07783377728563674
+        }
+    },
+    {
+        "epoch": 110,
+        "loss": {
+            "Loss": 0.23404,
+            "Lossp": 0.0,
+            "TrainAcc": 0.93383,
+            "Learn Rate": 0.004,
+            "DataTime": 0.0102,
+            "BatchTime": 0.07841
+        },
+        "close acc": 0.96417,
+        "fused_score_auroc": 0.88137,
+        "zscore_ener_auroc": 0.87789,
+        "zscore_reer_auroc": 0.82168,
+        "score_test_ener_auroc": 0.86765,
+        "score_test_reer_auroc": 0.83943,
+        "open_detection": {
+            "auroc": 0.88137,
+            "auprIN": 0.92079,
+            "auprOUT": 0.80386,
+            "accuracy": 0.7386,
+            "f1": 0.81347,
+            "recall": 0.95,
+            "precision": 0.71126,
+            "fpr@tpr95": 0.5785,
+            "bestdetacc": 0.81029
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93,
+            "accuracy": 0.7266,
+            "macro_f1": 0.7725,
+            "oscr": 0.86452,
+            "weighted_f1": 0.70971,
+            "macro_recall": 0.85736,
+            "weighted_recall": 0.7266,
+            "macro_precision": 0.74447,
+            "weighted_precision": 0.77568,
+            "classwise_auc": {
+                "class0": 0.86461,
+                "class1": 0.9613,
+                "class2": 0.90316,
+                "class3": 0.86525,
+                "class4": 0.83552,
+                "class5": 0.96909,
+                "mean": 0.88809
+            }
+        }
+    },
+    {
+        "epoch": 111,
+        "loss": {
+            "Loss": 0.2236270288203625,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9362666666666667,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010180228821774747,
+            "BatchTime": 0.07846296594498005
+        }
+    },
+    {
+        "epoch": 112,
+        "loss": {
+            "Loss": 0.2209534023987486,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9384666666666667,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010166042409044632,
+            "BatchTime": 0.07816603437383124
+        }
+    },
+    {
+        "epoch": 113,
+        "loss": {
+            "Loss": 0.21779168501813362,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9384333333333333,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010196294175817612,
+            "BatchTime": 0.07817960191280283
+        }
+    },
+    {
+        "epoch": 114,
+        "loss": {
+            "Loss": 0.21381408737060872,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9413,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.01016827644185817,
+            "BatchTime": 0.07851891010365587
+        }
+    },
+    {
+        "epoch": 115,
+        "loss": {
+            "Loss": 0.21182838614950789,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9417,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010154770790262425,
+            "BatchTime": 0.07843139526691843
+        }
+    },
+    {
+        "epoch": 116,
+        "loss": {
+            "Loss": 0.21699314529591418,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9414333333333333,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010208742669288149,
+            "BatchTime": 0.07841294877072598
+        }
+    },
+    {
+        "epoch": 117,
+        "loss": {
+            "Loss": 0.2124092495821892,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9414,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010036992012186254,
+            "BatchTime": 0.07834122028756649
+        }
+    },
+    {
+        "epoch": 118,
+        "loss": {
+            "Loss": 0.20556826813423887,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9446333333333333,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.009865636013923807,
+            "BatchTime": 0.07824474699953769
+        }
+    },
+    {
+        "epoch": 119,
+        "loss": {
+            "Loss": 0.2116482822184867,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9402666666666667,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.009899762336243975,
+            "BatchTime": 0.0779601827580878
+        }
+    },
+    {
+        "epoch": 120,
+        "loss": {
+            "Loss": 0.21004,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9417,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01016,
+            "BatchTime": 0.07808
+        },
+        "close acc": 0.968,
+        "fused_score_auroc": 0.88461,
+        "zscore_ener_auroc": 0.8792,
+        "zscore_reer_auroc": 0.79367,
+        "score_test_ener_auroc": 0.87953,
+        "score_test_reer_auroc": 0.83983,
+        "open_detection": {
+            "auroc": 0.88461,
+            "auprIN": 0.92161,
+            "auprOUT": 0.80935,
+            "accuracy": 0.7463,
+            "f1": 0.81797,
+            "recall": 0.95,
+            "precision": 0.71816,
+            "fpr@tpr95": 0.55925,
+            "bestdetacc": 0.81463
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.935,
+            "accuracy": 0.7373,
+            "macro_f1": 0.78359,
+            "oscr": 0.87094,
+            "weighted_f1": 0.72295,
+            "macro_recall": 0.86439,
+            "weighted_recall": 0.7373,
+            "macro_precision": 0.75589,
+            "weighted_precision": 0.78537,
+            "classwise_auc": {
+                "class0": 0.87104,
+                "class1": 0.96441,
+                "class2": 0.91335,
+                "class3": 0.8851,
+                "class4": 0.83094,
+                "class5": 0.97186,
+                "mean": 0.89433
+            }
+        }
+    },
+    {
+        "epoch": 121,
+        "loss": {
+            "Loss": 0.20934669441999273,
+            "Lossp": 0.0,
+            "TrainAcc": 0.943,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.00999642534458891,
+            "BatchTime": 0.07845779378363427
+        }
+    },
+    {
+        "epoch": 122,
+        "loss": {
+            "Loss": 0.2029813345759473,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9448,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010259618150426987,
+            "BatchTime": 0.07841953013805633
+        }
+    },
+    {
+        "epoch": 123,
+        "loss": {
+            "Loss": 0.20536465999927928,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9443333333333334,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010126463910366626,
+            "BatchTime": 0.07802569815453063
+        }
+    },
+    {
+        "epoch": 124,
+        "loss": {
+            "Loss": 0.20721856333473895,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9428333333333333,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.01012420045568588,
+            "BatchTime": 0.07794610185826079
+        }
+    },
+    {
+        "epoch": 125,
+        "loss": {
+            "Loss": 0.2059247005176037,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9438666666666666,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010240160150730863,
+            "BatchTime": 0.07823636582557192
+        }
+    },
+    {
+        "epoch": 126,
+        "loss": {
+            "Loss": 0.2041068843387543,
+            "Lossp": 0.0,
+            "TrainAcc": 0.945,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010102494219516187,
+            "BatchTime": 0.07806139499583142
+        }
+    },
+    {
+        "epoch": 127,
+        "loss": {
+            "Loss": 0.20301004014116653,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9461,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.009971445164781935,
+            "BatchTime": 0.07812583497230043
+        }
+    },
+    {
+        "epoch": 128,
+        "loss": {
+            "Loss": 0.1983612890573258,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9473,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010219545567289311,
+            "BatchTime": 0.0786530575853713
+        }
+    },
+    {
+        "epoch": 129,
+        "loss": {
+            "Loss": 0.19891838849859034,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9476,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010340884391297685,
+            "BatchTime": 0.07841819195037192
+        }
+    },
+    {
+        "epoch": 130,
+        "loss": {
+            "Loss": 0.20477,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9445,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01026,
+            "BatchTime": 0.07853
+        },
+        "close acc": 0.9695,
+        "fused_score_auroc": 0.88519,
+        "zscore_ener_auroc": 0.88087,
+        "zscore_reer_auroc": 0.7962,
+        "score_test_ener_auroc": 0.87485,
+        "score_test_reer_auroc": 0.83929,
+        "open_detection": {
+            "auroc": 0.88519,
+            "auprIN": 0.92094,
+            "auprOUT": 0.81549,
+            "accuracy": 0.7589,
+            "f1": 0.8254,
+            "recall": 0.94983,
+            "precision": 0.7298,
+            "fpr@tpr95": 0.5275,
+            "bestdetacc": 0.81125
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93417,
+            "accuracy": 0.7495,
+            "macro_f1": 0.79338,
+            "oscr": 0.87131,
+            "weighted_f1": 0.7385,
+            "macro_recall": 0.86821,
+            "weighted_recall": 0.7495,
+            "macro_precision": 0.76646,
+            "weighted_precision": 0.79519,
+            "classwise_auc": {
+                "class0": 0.85841,
+                "class1": 0.96166,
+                "class2": 0.923,
+                "class3": 0.89817,
+                "class4": 0.82873,
+                "class5": 0.97261,
+                "mean": 0.89453
+            }
+        }
+    },
+    {
+        "epoch": 131,
+        "loss": {
+            "Loss": 0.20046041034003523,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9473666666666667,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.009734678268432616,
+            "BatchTime": 0.07771524977176747
+        }
+    },
+    {
+        "epoch": 132,
+        "loss": {
+            "Loss": 0.2011732428631884,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9462,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.009925542993748442,
+            "BatchTime": 0.07796766808692446
+        }
+    },
+    {
+        "epoch": 133,
+        "loss": {
+            "Loss": 0.20313827458848344,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9448666666666666,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010255631994693837,
+            "BatchTime": 0.07803486357343958
+        }
+    },
+    {
+        "epoch": 134,
+        "loss": {
+            "Loss": 0.1976865290010229,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9468666666666666,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.01005649262286247,
+            "BatchTime": 0.07813028071789031
+        }
+    },
+    {
+        "epoch": 135,
+        "loss": {
+            "Loss": 0.2004446769014318,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9463666666666667,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010040036668168738,
+            "BatchTime": 0.07816350206415704
+        }
+    },
+    {
+        "epoch": 136,
+        "loss": {
+            "Loss": 0.19947766639450762,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9473,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010326587392928752,
+            "BatchTime": 0.07859497374676644
+        }
+    },
+    {
+        "epoch": 137,
+        "loss": {
+            "Loss": 0.19910849621321292,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9488333333333333,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010005835269359832,
+            "BatchTime": 0.07812268886160344
+        }
+    },
+    {
+        "epoch": 138,
+        "loss": {
+            "Loss": 0.19958548263666478,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9462333333333334,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.010040905120524954,
+            "BatchTime": 0.07826122831791005
+        }
+    },
+    {
+        "epoch": 139,
+        "loss": {
+            "Loss": 0.1968356562421677,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9471,
+            "Learn Rate": 0.004000000000000001,
+            "DataTime": 0.01026765336381628,
+            "BatchTime": 0.07850094348826307
+        }
+    },
+    {
+        "epoch": 140,
+        "loss": {
+            "Loss": 0.20137,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94513,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01018,
+            "BatchTime": 0.07831
+        },
+        "close acc": 0.97217,
+        "fused_score_auroc": 0.88392,
+        "zscore_ener_auroc": 0.88001,
+        "zscore_reer_auroc": 0.817,
+        "score_test_ener_auroc": 0.87386,
+        "score_test_reer_auroc": 0.85736,
+        "open_detection": {
+            "auroc": 0.88392,
+            "auprIN": 0.92012,
+            "auprOUT": 0.81322,
+            "accuracy": 0.7525,
+            "f1": 0.82162,
+            "recall": 0.95,
+            "precision": 0.72381,
+            "fpr@tpr95": 0.54375,
+            "bestdetacc": 0.81088
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93517,
+            "accuracy": 0.7436,
+            "macro_f1": 0.78906,
+            "oscr": 0.87082,
+            "weighted_f1": 0.73109,
+            "macro_recall": 0.86675,
+            "weighted_recall": 0.7436,
+            "macro_precision": 0.76216,
+            "weighted_precision": 0.79104,
+            "classwise_auc": {
+                "class0": 0.86196,
+                "class1": 0.96234,
+                "class2": 0.92482,
+                "class3": 0.89017,
+                "class4": 0.82493,
+                "class5": 0.97175,
+                "mean": 0.89289
+            }
+        }
+    },
+    {
+        "epoch": 141,
+        "loss": {
+            "Loss": 0.20046,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9473,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01015,
+            "BatchTime": 0.0783
+        },
+        "close acc": 0.97,
+        "fused_score_auroc": 0.87781,
+        "zscore_ener_auroc": 0.87312,
+        "zscore_reer_auroc": 0.80078,
+        "score_test_ener_auroc": 0.86535,
+        "score_test_reer_auroc": 0.84021,
+        "open_detection": {
+            "auroc": 0.87781,
+            "auprIN": 0.91534,
+            "auprOUT": 0.80159,
+            "accuracy": 0.7413,
+            "f1": 0.81504,
+            "recall": 0.95,
+            "precision": 0.71366,
+            "fpr@tpr95": 0.57175,
+            "bestdetacc": 0.80542
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.935,
+            "accuracy": 0.7323,
+            "macro_f1": 0.78183,
+            "oscr": 0.86479,
+            "weighted_f1": 0.71818,
+            "macro_recall": 0.86261,
+            "weighted_recall": 0.7323,
+            "macro_precision": 0.75776,
+            "weighted_precision": 0.78559,
+            "classwise_auc": {
+                "class0": 0.86038,
+                "class1": 0.96598,
+                "class2": 0.91436,
+                "class3": 0.89411,
+                "class4": 0.82246,
+                "class5": 0.97119,
+                "mean": 0.89037
+            }
+        }
+    },
+    {
+        "epoch": 142,
+        "loss": {
+            "Loss": 0.20168,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9458,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00963,
+            "BatchTime": 0.0777
+        },
+        "close acc": 0.97067,
+        "fused_score_auroc": 0.88354,
+        "zscore_ener_auroc": 0.87938,
+        "zscore_reer_auroc": 0.80614,
+        "score_test_ener_auroc": 0.87518,
+        "score_test_reer_auroc": 0.8456,
+        "open_detection": {
+            "auroc": 0.88354,
+            "auprIN": 0.91919,
+            "auprOUT": 0.81142,
+            "accuracy": 0.7519,
+            "f1": 0.82127,
+            "recall": 0.95,
+            "precision": 0.72326,
+            "fpr@tpr95": 0.54525,
+            "bestdetacc": 0.80937
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93483,
+            "accuracy": 0.7428,
+            "macro_f1": 0.78859,
+            "oscr": 0.87029,
+            "weighted_f1": 0.73035,
+            "macro_recall": 0.86625,
+            "weighted_recall": 0.7428,
+            "macro_precision": 0.76196,
+            "weighted_precision": 0.79078,
+            "classwise_auc": {
+                "class0": 0.86654,
+                "class1": 0.95944,
+                "class2": 0.91553,
+                "class3": 0.89507,
+                "class4": 0.8315,
+                "class5": 0.96809,
+                "mean": 0.89385
+            }
+        }
+    },
+    {
+        "epoch": 143,
+        "loss": {
+            "Loss": 0.19886,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94657,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01023,
+            "BatchTime": 0.07798
+        },
+        "close acc": 0.97117,
+        "fused_score_auroc": 0.8817,
+        "zscore_ener_auroc": 0.87621,
+        "zscore_reer_auroc": 0.82206,
+        "score_test_ener_auroc": 0.87829,
+        "score_test_reer_auroc": 0.85983,
+        "open_detection": {
+            "auroc": 0.8817,
+            "auprIN": 0.91787,
+            "auprOUT": 0.80851,
+            "accuracy": 0.7484,
+            "f1": 0.8192,
+            "recall": 0.95,
+            "precision": 0.72006,
+            "fpr@tpr95": 0.554,
+            "bestdetacc": 0.80929
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93583,
+            "accuracy": 0.7399,
+            "macro_f1": 0.78521,
+            "oscr": 0.86921,
+            "weighted_f1": 0.72555,
+            "macro_recall": 0.86586,
+            "weighted_recall": 0.7399,
+            "macro_precision": 0.757,
+            "weighted_precision": 0.78659,
+            "classwise_auc": {
+                "class0": 0.86133,
+                "class1": 0.96181,
+                "class2": 0.90637,
+                "class3": 0.8942,
+                "class4": 0.82802,
+                "class5": 0.96992,
+                "mean": 0.89202
+            }
+        }
+    },
+    {
+        "epoch": 144,
+        "loss": {
+            "Loss": 0.19567,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9472,
+            "Learn Rate": 0.004,
+            "DataTime": 0.01022,
+            "BatchTime": 0.07836
+        },
+        "close acc": 0.9705,
+        "fused_score_auroc": 0.87986,
+        "zscore_ener_auroc": 0.87535,
+        "zscore_reer_auroc": 0.80085,
+        "score_test_ener_auroc": 0.87684,
+        "score_test_reer_auroc": 0.8476,
+        "open_detection": {
+            "auroc": 0.87986,
+            "auprIN": 0.91597,
+            "auprOUT": 0.81035,
+            "accuracy": 0.7458,
+            "f1": 0.81767,
+            "recall": 0.95,
+            "precision": 0.7177,
+            "fpr@tpr95": 0.5605,
+            "bestdetacc": 0.80654
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.9355,
+            "accuracy": 0.7371,
+            "macro_f1": 0.78359,
+            "oscr": 0.86687,
+            "weighted_f1": 0.7226,
+            "macro_recall": 0.86464,
+            "weighted_recall": 0.7371,
+            "macro_precision": 0.75636,
+            "weighted_precision": 0.78559,
+            "classwise_auc": {
+                "class0": 0.85399,
+                "class1": 0.96442,
+                "class2": 0.91326,
+                "class3": 0.89208,
+                "class4": 0.82835,
+                "class5": 0.96958,
+                "mean": 0.89131
+            }
+        }
+    },
+    {
+        "epoch": 145,
+        "loss": {
+            "Loss": 0.1991,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94727,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00955,
+            "BatchTime": 0.07782
+        },
+        "close acc": 0.97067,
+        "fused_score_auroc": 0.88126,
+        "zscore_ener_auroc": 0.87793,
+        "zscore_reer_auroc": 0.80198,
+        "score_test_ener_auroc": 0.87687,
+        "score_test_reer_auroc": 0.83867,
+        "open_detection": {
+            "auroc": 0.88126,
+            "auprIN": 0.91698,
+            "auprOUT": 0.81161,
+            "accuracy": 0.7515,
+            "f1": 0.821,
+            "recall": 0.94983,
+            "precision": 0.72295,
+            "fpr@tpr95": 0.546,
+            "bestdetacc": 0.80942
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.935,
+            "accuracy": 0.7426,
+            "macro_f1": 0.78857,
+            "oscr": 0.86803,
+            "weighted_f1": 0.7301,
+            "macro_recall": 0.86629,
+            "weighted_recall": 0.7426,
+            "macro_precision": 0.76195,
+            "weighted_precision": 0.79059,
+            "classwise_auc": {
+                "class0": 0.85353,
+                "class1": 0.96623,
+                "class2": 0.92347,
+                "class3": 0.8983,
+                "class4": 0.82211,
+                "class5": 0.96891,
+                "mean": 0.8928
+            }
+        }
+    },
+    {
+        "epoch": 146,
+        "loss": {
+            "Loss": 0.19717,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9471,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00967,
+            "BatchTime": 0.07792
+        },
+        "close acc": 0.96917,
+        "fused_score_auroc": 0.87888,
+        "zscore_ener_auroc": 0.87473,
+        "zscore_reer_auroc": 0.80053,
+        "score_test_ener_auroc": 0.86583,
+        "score_test_reer_auroc": 0.83894,
+        "open_detection": {
+            "auroc": 0.87888,
+            "auprIN": 0.91594,
+            "auprOUT": 0.80508,
+            "accuracy": 0.7498,
+            "f1": 0.82003,
+            "recall": 0.95,
+            "precision": 0.72134,
+            "fpr@tpr95": 0.5505,
+            "bestdetacc": 0.80513
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.9355,
+            "accuracy": 0.7411,
+            "macro_f1": 0.78816,
+            "oscr": 0.86539,
+            "weighted_f1": 0.7286,
+            "macro_recall": 0.86607,
+            "weighted_recall": 0.7411,
+            "macro_precision": 0.76229,
+            "weighted_precision": 0.79058,
+            "classwise_auc": {
+                "class0": 0.84811,
+                "class1": 0.96565,
+                "class2": 0.92218,
+                "class3": 0.89434,
+                "class4": 0.81903,
+                "class5": 0.96981,
+                "mean": 0.88931
+            }
+        }
+    },
+    {
+        "epoch": 147,
+        "loss": {
+            "Loss": 0.20188,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94527,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00948,
+            "BatchTime": 0.07743
+        },
+        "close acc": 0.9705,
+        "fused_score_auroc": 0.87666,
+        "zscore_ener_auroc": 0.87319,
+        "zscore_reer_auroc": 0.78966,
+        "score_test_ener_auroc": 0.86759,
+        "score_test_reer_auroc": 0.83327,
+        "open_detection": {
+            "auroc": 0.87666,
+            "auprIN": 0.91363,
+            "auprOUT": 0.80588,
+            "accuracy": 0.7476,
+            "f1": 0.81873,
+            "recall": 0.95,
+            "precision": 0.71933,
+            "fpr@tpr95": 0.556,
+            "bestdetacc": 0.80383
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93483,
+            "accuracy": 0.7385,
+            "macro_f1": 0.78549,
+            "oscr": 0.86324,
+            "weighted_f1": 0.72519,
+            "macro_recall": 0.86471,
+            "weighted_recall": 0.7385,
+            "macro_precision": 0.76016,
+            "weighted_precision": 0.78864,
+            "classwise_auc": {
+                "class0": 0.83701,
+                "class1": 0.96638,
+                "class2": 0.91854,
+                "class3": 0.89053,
+                "class4": 0.83128,
+                "class5": 0.97431,
+                "mean": 0.88908
+            }
+        }
+    },
+    {
+        "epoch": 148,
+        "loss": {
+            "Loss": 0.19701,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94717,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00959,
+            "BatchTime": 0.07753
+        },
+        "close acc": 0.9715,
+        "fused_score_auroc": 0.88055,
+        "zscore_ener_auroc": 0.87609,
+        "zscore_reer_auroc": 0.7879,
+        "score_test_ener_auroc": 0.87166,
+        "score_test_reer_auroc": 0.83389,
+        "open_detection": {
+            "auroc": 0.88055,
+            "auprIN": 0.91701,
+            "auprOUT": 0.81051,
+            "accuracy": 0.7583,
+            "f1": 0.82505,
+            "recall": 0.94983,
+            "precision": 0.72924,
+            "fpr@tpr95": 0.529,
+            "bestdetacc": 0.80758
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93583,
+            "accuracy": 0.7499,
+            "macro_f1": 0.79458,
+            "oscr": 0.86786,
+            "weighted_f1": 0.73894,
+            "macro_recall": 0.86943,
+            "weighted_recall": 0.7499,
+            "macro_precision": 0.76816,
+            "weighted_precision": 0.79627,
+            "classwise_auc": {
+                "class0": 0.85197,
+                "class1": 0.96577,
+                "class2": 0.92284,
+                "class3": 0.89284,
+                "class4": 0.81964,
+                "class5": 0.97213,
+                "mean": 0.89073
+            }
+        }
+    },
+    {
+        "epoch": 149,
+        "loss": {
+            "Loss": 0.19752,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9468,
+            "Learn Rate": 0.004,
+            "DataTime": 0.00955,
+            "BatchTime": 0.07793
+        },
+        "close acc": 0.97233,
+        "fused_score_auroc": 0.8821,
+        "zscore_ener_auroc": 0.87841,
+        "zscore_reer_auroc": 0.80064,
+        "score_test_ener_auroc": 0.87733,
+        "score_test_reer_auroc": 0.84765,
+        "open_detection": {
+            "auroc": 0.8821,
+            "auprIN": 0.918,
+            "auprOUT": 0.81114,
+            "accuracy": 0.7527,
+            "f1": 0.82174,
+            "recall": 0.95,
+            "precision": 0.72399,
+            "fpr@tpr95": 0.54325,
+            "bestdetacc": 0.80988
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.937,
+            "accuracy": 0.7449,
+            "macro_f1": 0.79082,
+            "oscr": 0.86963,
+            "weighted_f1": 0.73246,
+            "macro_recall": 0.86839,
+            "weighted_recall": 0.7449,
+            "macro_precision": 0.76371,
+            "weighted_precision": 0.79216,
+            "classwise_auc": {
+                "class0": 0.8485,
+                "class1": 0.96614,
+                "class2": 0.91671,
+                "class3": 0.89949,
+                "class4": 0.82414,
+                "class5": 0.97037,
+                "mean": 0.89156
+            }
+        }
+    },
+    {
+        "epoch": 150,
+        "loss": {
+            "Loss": 0.19418,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9492,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00964,
+            "BatchTime": 0.07809
+        },
+        "close acc": 0.97217,
+        "fused_score_auroc": 0.88055,
+        "zscore_ener_auroc": 0.87691,
+        "zscore_reer_auroc": 0.80727,
+        "score_test_ener_auroc": 0.87436,
+        "score_test_reer_auroc": 0.84679,
+        "open_detection": {
+            "auroc": 0.88055,
+            "auprIN": 0.91665,
+            "auprOUT": 0.80896,
+            "accuracy": 0.7546,
+            "f1": 0.82287,
+            "recall": 0.95,
+            "precision": 0.72574,
+            "fpr@tpr95": 0.5385,
+            "bestdetacc": 0.80904
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93667,
+            "accuracy": 0.7466,
+            "macro_f1": 0.79231,
+            "oscr": 0.86822,
+            "weighted_f1": 0.7348,
+            "macro_recall": 0.86879,
+            "weighted_recall": 0.7466,
+            "macro_precision": 0.76565,
+            "weighted_precision": 0.7939,
+            "classwise_auc": {
+                "class0": 0.84693,
+                "class1": 0.9645,
+                "class2": 0.91829,
+                "class3": 0.89792,
+                "class4": 0.8258,
+                "class5": 0.97059,
+                "mean": 0.89126
+            }
+        }
+    },
+    {
+        "epoch": 151,
+        "loss": {
+            "Loss": 0.19091,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94993,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00957,
+            "BatchTime": 0.07776
+        },
+        "close acc": 0.97217,
+        "fused_score_auroc": 0.88084,
+        "zscore_ener_auroc": 0.87697,
+        "zscore_reer_auroc": 0.80597,
+        "score_test_ener_auroc": 0.87462,
+        "score_test_reer_auroc": 0.84784,
+        "open_detection": {
+            "auroc": 0.88084,
+            "auprIN": 0.91697,
+            "auprOUT": 0.80972,
+            "accuracy": 0.7554,
+            "f1": 0.82334,
+            "recall": 0.95,
+            "precision": 0.72648,
+            "fpr@tpr95": 0.5365,
+            "bestdetacc": 0.80875
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93683,
+            "accuracy": 0.7475,
+            "macro_f1": 0.79324,
+            "oscr": 0.86855,
+            "weighted_f1": 0.736,
+            "macro_recall": 0.86921,
+            "weighted_recall": 0.7475,
+            "macro_precision": 0.76694,
+            "weighted_precision": 0.79496,
+            "classwise_auc": {
+                "class0": 0.84847,
+                "class1": 0.96517,
+                "class2": 0.91754,
+                "class3": 0.89833,
+                "class4": 0.82563,
+                "class5": 0.97091,
+                "mean": 0.89159
+            }
+        }
+    },
+    {
+        "epoch": 152,
+        "loss": {
+            "Loss": 0.19363,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94863,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.0096,
+            "BatchTime": 0.07781
+        },
+        "close acc": 0.972,
+        "fused_score_auroc": 0.88085,
+        "zscore_ener_auroc": 0.87696,
+        "zscore_reer_auroc": 0.80122,
+        "score_test_ener_auroc": 0.87362,
+        "score_test_reer_auroc": 0.84548,
+        "open_detection": {
+            "auroc": 0.88085,
+            "auprIN": 0.91711,
+            "auprOUT": 0.80971,
+            "accuracy": 0.7546,
+            "f1": 0.82284,
+            "recall": 0.94983,
+            "precision": 0.7258,
+            "fpr@tpr95": 0.53825,
+            "bestdetacc": 0.80858
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93667,
+            "accuracy": 0.7467,
+            "macro_f1": 0.79248,
+            "oscr": 0.86848,
+            "weighted_f1": 0.73496,
+            "macro_recall": 0.86882,
+            "weighted_recall": 0.7467,
+            "macro_precision": 0.76587,
+            "weighted_precision": 0.79395,
+            "classwise_auc": {
+                "class0": 0.84737,
+                "class1": 0.96471,
+                "class2": 0.9147,
+                "class3": 0.89827,
+                "class4": 0.82717,
+                "class5": 0.97084,
+                "mean": 0.89117
+            }
+        }
+    },
+    {
+        "epoch": 153,
+        "loss": {
+            "Loss": 0.19264,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9487,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00955,
+            "BatchTime": 0.07751
+        },
+        "close acc": 0.97217,
+        "fused_score_auroc": 0.88078,
+        "zscore_ener_auroc": 0.87721,
+        "zscore_reer_auroc": 0.80015,
+        "score_test_ener_auroc": 0.87402,
+        "score_test_reer_auroc": 0.84584,
+        "open_detection": {
+            "auroc": 0.88078,
+            "auprIN": 0.91691,
+            "auprOUT": 0.81024,
+            "accuracy": 0.7548,
+            "f1": 0.82299,
+            "recall": 0.95,
+            "precision": 0.72593,
+            "fpr@tpr95": 0.538,
+            "bestdetacc": 0.80846
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93717,
+            "accuracy": 0.7471,
+            "macro_f1": 0.79282,
+            "oscr": 0.86849,
+            "weighted_f1": 0.7353,
+            "macro_recall": 0.86929,
+            "weighted_recall": 0.7471,
+            "macro_precision": 0.76617,
+            "weighted_precision": 0.7943,
+            "classwise_auc": {
+                "class0": 0.84935,
+                "class1": 0.96532,
+                "class2": 0.91591,
+                "class3": 0.89666,
+                "class4": 0.82741,
+                "class5": 0.9703,
+                "mean": 0.89144
+            }
+        }
+    },
+    {
+        "epoch": 154,
+        "loss": {
+            "Loss": 0.1899,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94977,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00951,
+            "BatchTime": 0.07787
+        },
+        "close acc": 0.97183,
+        "fused_score_auroc": 0.88055,
+        "zscore_ener_auroc": 0.87684,
+        "zscore_reer_auroc": 0.8011,
+        "score_test_ener_auroc": 0.87388,
+        "score_test_reer_auroc": 0.84469,
+        "open_detection": {
+            "auroc": 0.88055,
+            "auprIN": 0.91626,
+            "auprOUT": 0.81035,
+            "accuracy": 0.7554,
+            "f1": 0.82334,
+            "recall": 0.95,
+            "precision": 0.72648,
+            "fpr@tpr95": 0.5365,
+            "bestdetacc": 0.80888
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.937,
+            "accuracy": 0.7476,
+            "macro_f1": 0.79281,
+            "oscr": 0.86809,
+            "weighted_f1": 0.7357,
+            "macro_recall": 0.86936,
+            "weighted_recall": 0.7476,
+            "macro_precision": 0.76553,
+            "weighted_precision": 0.79397,
+            "classwise_auc": {
+                "class0": 0.84842,
+                "class1": 0.96441,
+                "class2": 0.91674,
+                "class3": 0.89647,
+                "class4": 0.82665,
+                "class5": 0.97036,
+                "mean": 0.89116
+            }
+        }
+    },
+    {
+        "epoch": 155,
+        "loss": {
+            "Loss": 0.19502,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9488,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.0096,
+            "BatchTime": 0.07789
+        },
+        "close acc": 0.971,
+        "fused_score_auroc": 0.87991,
+        "zscore_ener_auroc": 0.87623,
+        "zscore_reer_auroc": 0.80889,
+        "score_test_ener_auroc": 0.87282,
+        "score_test_reer_auroc": 0.84357,
+        "open_detection": {
+            "auroc": 0.87991,
+            "auprIN": 0.916,
+            "auprOUT": 0.80888,
+            "accuracy": 0.7541,
+            "f1": 0.82257,
+            "recall": 0.95,
+            "precision": 0.72528,
+            "fpr@tpr95": 0.53975,
+            "bestdetacc": 0.80792
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93717,
+            "accuracy": 0.7464,
+            "macro_f1": 0.79223,
+            "oscr": 0.86739,
+            "weighted_f1": 0.73441,
+            "macro_recall": 0.86904,
+            "weighted_recall": 0.7464,
+            "macro_precision": 0.76546,
+            "weighted_precision": 0.79367,
+            "classwise_auc": {
+                "class0": 0.84817,
+                "class1": 0.96452,
+                "class2": 0.91517,
+                "class3": 0.89717,
+                "class4": 0.82605,
+                "class5": 0.96992,
+                "mean": 0.89071
+            }
+        }
+    },
+    {
+        "epoch": 156,
+        "loss": {
+            "Loss": 0.19203,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94957,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00957,
+            "BatchTime": 0.07807
+        },
+        "close acc": 0.97167,
+        "fused_score_auroc": 0.88001,
+        "zscore_ener_auroc": 0.87611,
+        "zscore_reer_auroc": 0.79912,
+        "score_test_ener_auroc": 0.87212,
+        "score_test_reer_auroc": 0.84458,
+        "open_detection": {
+            "auroc": 0.88001,
+            "auprIN": 0.91558,
+            "auprOUT": 0.80976,
+            "accuracy": 0.7555,
+            "f1": 0.8234,
+            "recall": 0.95,
+            "precision": 0.72658,
+            "fpr@tpr95": 0.53625,
+            "bestdetacc": 0.80804
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93733,
+            "accuracy": 0.7479,
+            "macro_f1": 0.79333,
+            "oscr": 0.86753,
+            "weighted_f1": 0.73613,
+            "macro_recall": 0.86968,
+            "weighted_recall": 0.7479,
+            "macro_precision": 0.76621,
+            "weighted_precision": 0.79446,
+            "classwise_auc": {
+                "class0": 0.84736,
+                "class1": 0.96456,
+                "class2": 0.9162,
+                "class3": 0.89741,
+                "class4": 0.82847,
+                "class5": 0.96938,
+                "mean": 0.89111
+            }
+        }
+    },
+    {
+        "epoch": 157,
+        "loss": {
+            "Loss": 0.19059,
+            "Lossp": 0.0,
+            "TrainAcc": 0.9502,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.0096,
+            "BatchTime": 0.07798
+        },
+        "close acc": 0.9715,
+        "fused_score_auroc": 0.87997,
+        "zscore_ener_auroc": 0.87621,
+        "zscore_reer_auroc": 0.79888,
+        "score_test_ener_auroc": 0.87162,
+        "score_test_reer_auroc": 0.84198,
+        "open_detection": {
+            "auroc": 0.87997,
+            "auprIN": 0.91643,
+            "auprOUT": 0.80872,
+            "accuracy": 0.7531,
+            "f1": 0.82198,
+            "recall": 0.95,
+            "precision": 0.72436,
+            "fpr@tpr95": 0.54225,
+            "bestdetacc": 0.80812
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.937,
+            "accuracy": 0.7453,
+            "macro_f1": 0.79137,
+            "oscr": 0.86758,
+            "weighted_f1": 0.73312,
+            "macro_recall": 0.86854,
+            "weighted_recall": 0.7453,
+            "macro_precision": 0.76485,
+            "weighted_precision": 0.79304,
+            "classwise_auc": {
+                "class0": 0.84717,
+                "class1": 0.96309,
+                "class2": 0.91448,
+                "class3": 0.8995,
+                "class4": 0.82773,
+                "class5": 0.97038,
+                "mean": 0.89101
+            }
+        }
+    },
+    {
+        "epoch": 158,
+        "loss": {
+            "Loss": 0.19158,
+            "Lossp": 0.0,
+            "TrainAcc": 0.94953,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.00961,
+            "BatchTime": 0.07784
+        },
+        "close acc": 0.97167,
+        "fused_score_auroc": 0.87931,
+        "zscore_ener_auroc": 0.87541,
+        "zscore_reer_auroc": 0.79424,
+        "score_test_ener_auroc": 0.87128,
+        "score_test_reer_auroc": 0.84116,
+        "open_detection": {
+            "auroc": 0.87931,
+            "auprIN": 0.91567,
+            "auprOUT": 0.8086,
+            "accuracy": 0.7542,
+            "f1": 0.8226,
+            "recall": 0.94983,
+            "precision": 0.72543,
+            "fpr@tpr95": 0.53925,
+            "bestdetacc": 0.80717
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.93683,
+            "accuracy": 0.7464,
+            "macro_f1": 0.79227,
+            "oscr": 0.86687,
+            "weighted_f1": 0.73454,
+            "macro_recall": 0.86882,
+            "weighted_recall": 0.7464,
+            "macro_precision": 0.76582,
+            "weighted_precision": 0.79384,
+            "classwise_auc": {
+                "class0": 0.84738,
+                "class1": 0.96227,
+                "class2": 0.91682,
+                "class3": 0.89828,
+                "class4": 0.82606,
+                "class5": 0.9711,
+                "mean": 0.89076
+            }
+        }
+    },
+    {
+        "epoch": 159,
+        "loss": {
+            "Loss": 0.18907,
+            "Lossp": 0.0,
+            "TrainAcc": 0.95073,
+            "Learn Rate": 0.0004,
+            "DataTime": 0.0096,
+            "BatchTime": 0.07771
+        },
+        "close acc": 0.9715,
+        "fused_score_auroc": 0.8804,
+        "zscore_ener_auroc": 0.87649,
+        "zscore_reer_auroc": 0.80617,
+        "score_test_ener_auroc": 0.87346,
+        "score_test_reer_auroc": 0.84597,
+        "open_detection": {
+            "auroc": 0.8804,
+            "auprIN": 0.91628,
+            "auprOUT": 0.80989,
+            "accuracy": 0.7562,
+            "f1": 0.82382,
+            "recall": 0.95,
+            "precision": 0.72723,
+            "fpr@tpr95": 0.5345,
+            "bestdetacc": 0.80883
+        },
+        "open_reco": {
+            "closeacc_withrej": 0.9365,
+            "accuracy": 0.7481,
+            "macro_f1": 0.79295,
+            "oscr": 0.86789,
+            "weighted_f1": 0.73634,
+            "macro_recall": 0.86921,
+            "weighted_recall": 0.7481,
+            "macro_precision": 0.76579,
+            "weighted_precision": 0.79431,
+            "classwise_auc": {
+                "class0": 0.84932,
+                "class1": 0.96251,
+                "class2": 0.91637,
+                "class3": 0.89888,
+                "class4": 0.82687,
+                "class5": 0.97139,
+                "mean": 0.89161
+            }
+        }
+    }
+]
